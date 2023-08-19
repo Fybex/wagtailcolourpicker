@@ -8,7 +8,7 @@ from wagtailcolourpicker import __version__
 
 
 install_requires = [
-    'wagtail>=2,<2.6'
+    'wagtail>=2,<5.2'
 ]
 
 documentation_extras = [
