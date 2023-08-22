@@ -2,7 +2,7 @@ from django.conf import settings
 from django.templatetags.static import static
 from django.urls import reverse, path, include
 from django.utils.html import format_html_join, format_html
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 import wagtail.admin.rich_text.editors.draftail.features as draftail_features
 from wagtail.core import hooks
