@@ -1,7 +1,7 @@
 from wagtail.admin.edit_handlers import StreamFieldPanel
-from wagtail.core.blocks import RichTextBlock
-from wagtail.core.fields import StreamField
-from wagtail.core.models import Page
+from wagtail.blocks import RichTextBlock
+from wagtail.fields import StreamField
+from wagtail.models import Page
 
 
 class BasicPage(Page):
